@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la consola de NetApp , puede agregar cuentas de almacenamiento adicionales directamente desde la consola. 
+---
+= Agregar cuentas de almacenamiento de blobs de Azure en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la consola de NetApp , puede agregar cuentas de almacenamiento adicionales directamente desde la consola.
+
+.Pasos
+. Desde la página Sistemas, seleccione el sistema Azure Blob Storage para ver su página de descripción general.
+. Seleccione *Agregar cuenta de almacenamiento*.
++
+image:screenshot-add-blob-storage-button.png["Una captura de pantalla que muestra los detalles de un sistema de Azure Blob Storage y el botón Agregar cuenta de almacenamiento."]
+
++
+Se muestra la página _Agregar cuenta de almacenamiento_.
+
++
+image:screenshot-add-blob-storage.png["Una captura de pantalla que muestra la página Agregar cuenta de almacenamiento para que pueda crear sus propias cuentas de almacenamiento de blobs de Azure."]
+
+. Ingrese la información requerida en la sección _Detalles del proyecto_.
++
+[cols="25,75"]
+|===
+| Campo | Descripción 
+
+
+| Suscripción | Seleccione la suscripción de Azure para la nueva cuenta de almacenamiento. 
+
+
+| Grupo de recursos  a| 
+Seleccione un grupo de recursos existente para esta cuenta de almacenamiento.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Obtenga más información sobre los grupos de recursos"^] .
+
+|===
+. En la sección _Detalles de la instancia_, ingrese el nombre de la cuenta de almacenamiento y seleccione una región (o regiones) donde se creará la cuenta de almacenamiento.
++
+[cols="25,75"]
+|===
+| Campo | Descripción 
+
+
+| Nombre de la cuenta de almacenamiento | Introduzca el nombre que desea utilizar para la cuenta de almacenamiento.  El nombre debe tener entre 3 y 24 caracteres de longitud y solo puede contener números y letras minúsculas. 
+
+
+| Región de Azure  a| 
+Seleccione una región de la lista donde se creará la cuenta de almacenamiento.
+
+Seleccione la región adecuada para su cuenta de almacenamiento. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Consulte la documentación de Microsoft para obtener información sobre las regiones y zonas de disponibilidad de Azure."^] .
+
+No todas las regiones son compatibles con todos los tipos de cuentas de almacenamiento o configuraciones de redundancia. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Consulte la documentación de Microsoft para obtener información sobre la redundancia de almacenamiento de Azure"^] .
+
+Además, la elección de la región puede tener un impacto en la facturación. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Consulte la documentación de Microsoft para obtener información sobre la facturación de cuentas de Azure Storage"^] .
+
+
+
+| Tipo de rendimiento  a| 
+Seleccione si desea utilizar almacenamiento de rendimiento *Estándar* o *Premium*. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["Consulte la documentación de Microsoft para obtener información sobre los tipos de cuentas de almacenamiento."^] .
+
+** El rendimiento _estándar_ se utiliza para cuentas de almacenamiento v2 de propósito general.  Este tipo de cuenta se recomienda para la mayoría de los escenarios.
+** El rendimiento _Premium_ se utiliza para escenarios que requieren baja latencia.  Hay tres tipos de cuentas de almacenamiento premium disponibles: Blobs en bloques, recursos compartidos de archivos y Blobs en páginas.
+
+
+|===
+. En la sección _Etiquetas_, puede ingresar hasta 10 pares clave/valor de etiqueta para agrupar sus recursos.
++
+Las etiquetas son metadatos que puede utilizar para agrupar recursos para identificar aplicaciones, entornos, regiones, proveedores de nube y más. Puede agregar etiquetas a una cuenta de almacenamiento para que las etiquetas se apliquen a los objetos cuando se agreguen a la cuenta de almacenamiento.
+
++
+Las etiquetas están deshabilitadas de forma predeterminada en las nuevas cuentas de almacenamiento creadas por la consola. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Obtenga más información sobre el etiquetado"^] .
+
+. En la sección _Cifrado_, elija el tipo de cifrado de datos que desea utilizar para proteger el acceso a los datos en la cuenta de almacenamiento.
++
+[cols="25,75"]
+|===
+| Tipo de cifrado de datos | Descripción 
+
+
+| Claves administradas por Microsoft | De forma predeterminada, se utilizan claves de cifrado administradas por Microsoft para cifrar sus datos. 
+
+
+| Claves gestionadas por el cliente  a| 
+Puede utilizar sus propias claves administradas por el cliente para el cifrado de datos en lugar de utilizar las claves de cifrado administradas predeterminadas por Microsoft.  Si planea utilizar sus propias claves administradas por el cliente, deberá haberlas creado previamente para poder seleccionar Key Vault y las claves en esta página.
+
+Las claves pueden estar en la misma suscripción que la cuenta de almacenamiento o puedes seleccionar una suscripción diferente.
+
+|===
++
+Consulte la documentación de Microsoft Azure para https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Más información sobre las claves administradas por Microsoft"^] , y https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["Más información sobre las claves administradas por el cliente"^] .
+
+. Seleccione *Agregar* para crear el depósito.
+

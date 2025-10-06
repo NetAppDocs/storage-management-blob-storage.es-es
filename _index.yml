@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Documentación de almacenamiento de blobs de Azure
+  summary: Comience a utilizar Azure Blob Storage con la consola de NetApp .
+  keywords: bluexp, documentation, storage, storage management, azure blob, netapp
+    console
+  lead: Comience a utilizar Azure Blob Storage con la consola de NetApp .
+  tiles:
+  - title: Empezar
+    links:
+    - title: Ver sus cuentas de almacenamiento de blobs de Azure
+      url: task-view-azure-blob-storage.html
+  - title: Administrar cuentas de almacenamiento de blobs de Azure
+    links:
+    - title: Agregar cuentas de almacenamiento de blobs
+      url: task-add-blob-storage.html
+    - title: Cambiar la configuración de la cuenta de almacenamiento
+      url: task-change-blob-storage-settings.html
+    - title: Utilice los servicios de datos de NetApp con Azure Blob Storage
+      url: task-blob-enable-data-services.html
+  - title: Más información
+    links:
+    - title: Documentación de Azure Blob Storage para administración fuera de la consola
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: Blogs y comunidad
+    links:
+    - title: Consola de NetApp
+      url: https://www.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/
