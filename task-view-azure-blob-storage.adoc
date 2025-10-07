@@ -19,7 +19,7 @@ Después de instalar un agente de consola en Azure, la consola de NetApp puede d
 Puede ver detalles sobre sus cuentas de almacenamiento de Azure, incluida la ubicación, el grupo de recursos, la capacidad utilizada y más.  Estas cuentas se pueden utilizar como destinos para operaciones de NetApp Backup and Recovery, NetApp Copy and Sync y NetApp Cloud Tiering.
 
 .Pasos
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Instalar un agente de consola"^]en la cuenta de Azure donde desea ver sus cuentas de almacenamiento de blobs de Azure.
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["Instalar un agente de consola"^]en la cuenta de Azure donde desea ver sus cuentas de almacenamiento de blobs de Azure.
 . Desde el menú de navegación, seleccione *Almacenamiento > Sistemas*.
 +
 Poco después deberías ver automáticamente un sistema de almacenamiento de blobs de Azure.
