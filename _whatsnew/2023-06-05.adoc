@@ -6,4 +6,4 @@
 
 === Capacidad de agregar nuevas cuentas de almacenamiento desde BlueXP
 
-Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo. Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Aprenda a agregar nuevas cuentas de almacenamiento de blobs de Azure"^] .
+Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo.  Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Aprenda a agregar nuevas cuentas de almacenamiento de blobs de Azure"^] .

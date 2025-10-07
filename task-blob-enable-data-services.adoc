@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-blob-enable-data-services.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Después de descubrir cuentas de almacenamiento de blobs de Azure en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles y sincronizar datos. 
+summary: Después de descubrir cuentas de almacenamiento de blobs de Azure en la NetApp Console, puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles y sincronizar datos. 
 ---
 = Utilice los servicios de datos de NetApp con Azure Blob Storage
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Después de descubrir cuentas de almacenamiento de blobs de Azure en la
 
 
 [role="lead"]
-Después de descubrir cuentas de almacenamiento de blobs de Azure en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles y sincronizar datos.
+Después de descubrir cuentas de almacenamiento de blobs de Azure en la NetApp Console, puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles y sincronizar datos.
 
 * Utilice * NetApp Backup and Recovery* para realizar copias de seguridad de los datos de sus sistemas ONTAP locales y Cloud Volumes ONTAP en el almacenamiento de blobs de Azure.
 +
@@ -30,7 +30,7 @@ Para comenzar, navegue a la página Sistemas.  Arrastre y suelte un sistema ONTA
 +
 https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-azure.html["Obtenga más información sobre cómo organizar en niveles los datos de ONTAP en el almacenamiento de blobs de Azure"^] .
 
-* Utilice * NetApp Copy and Sync* para sincronizar datos hacia o desde cuentas de almacenamiento de blobs de Azure.
+* Utilice * NetApp Copy and Sync* para sincronizar datos hacia o desde cuentas de almacenamiento de Azure Blob.
 +
 Para comenzar, navegue a la página Sistemas.  Arrastre y suelte el sistema de origen en el sistema de destino.  Su sistema de almacenamiento de blobs de Azure puede ser el origen o el destino.
 

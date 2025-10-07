@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-change-blob-storage-settings.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Una vez que su sistema Azure Blob Storage esté disponible en la página Sistemas, puede cambiar algunas propiedades de la cuenta de almacenamiento directamente desde la consola de NetApp . 
+summary: Una vez que su sistema Azure Blob Storage esté disponible en la página Sistemas, puede cambiar algunas propiedades de la cuenta de almacenamiento directamente desde la NetApp Console. 
 ---
-= Cambiar la configuración de la cuenta de almacenamiento de blobs de Azure en la consola de NetApp
+= Cambiar la configuración de la cuenta de almacenamiento de blobs de Azure en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Una vez que su sistema Azure Blob Storage esté disponible en la págin
 
 
 [role="lead"]
-Una vez que su sistema Azure Blob Storage esté disponible en la página Sistemas, puede cambiar algunas propiedades de la cuenta de almacenamiento directamente desde la consola de NetApp .
+Una vez que su sistema Azure Blob Storage esté disponible en la página Sistemas, puede cambiar algunas propiedades de la cuenta de almacenamiento directamente desde la NetApp Console.
 
 Tenga en cuenta que no puede cambiar el nombre de la cuenta de almacenamiento, la región de Azure ni el tipo de rendimiento del almacenamiento.
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-add-blob-storage.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
-summary: Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la consola de NetApp , puede agregar cuentas de almacenamiento adicionales directamente desde la consola. 
+summary: Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la NetApp Console , puede agregar cuentas de almacenamiento adicionales directamente desde la consola. 
 ---
-= Agregar cuentas de almacenamiento de blobs de Azure en la consola de NetApp
+= Agregar cuentas de almacenamiento de blobs de Azure en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Una vez que su sistema Azure Blob Storage esté disponible en la págin
 
 
 [role="lead"]
-Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la consola de NetApp , puede agregar cuentas de almacenamiento adicionales directamente desde la consola.
+Una vez que su sistema Azure Blob Storage esté disponible en la página de sistemas de la NetApp Console , puede agregar cuentas de almacenamiento adicionales directamente desde la consola.
 
 .Pasos
 . Desde la página Sistemas, seleccione el sistema Azure Blob Storage para ver su página de descripción general.

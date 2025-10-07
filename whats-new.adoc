@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
-summary: Descubra las novedades de Azure Blob Storage en la consola de NetApp . 
+summary: Descubra las novedades de Azure Blob Storage en la NetApp Console. 
 ---
-= Novedades de Azure Blob Storage en la consola de NetApp
+= Novedades de Azure Blob Storage en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Descubra las novedades de Azure Blob Storage en la consola de NetApp .
 
 
 [role="lead"]
-Descubra las novedades de Azure Blob Storage en la consola de NetApp .
+Descubra las novedades de Azure Blob Storage en la NetApp Console.
 
 
 
@@ -26,9 +26,9 @@ Descubra las novedades de Azure Blob Storage en la consola de NetApp .
 
 BlueXP ha sido renombrado y rediseñado para reflejar mejor su función en la gestión de su infraestructura de datos.
 
-La consola de NetApp proporciona una gestión centralizada de servicios de almacenamiento y datos en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada.
+La NetApp Console proporciona una gestión centralizada de servicios de almacenamiento y datos en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada.
 
-Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la NetApp Console"] .
 
 
 
@@ -38,4 +38,4 @@ Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.ne
 
 === Capacidad de agregar nuevas cuentas de almacenamiento desde BlueXP
 
-Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo. Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Aprenda a agregar nuevas cuentas de almacenamiento de blobs de Azure"^] .
+Ha tenido la capacidad de ver Azure Blob Storage en BlueXP Canvas durante bastante tiempo.  Ahora puede agregar nuevas cuentas de almacenamiento y cambiar las propiedades de las cuentas de almacenamiento existentes directamente desde BlueXP. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Aprenda a agregar nuevas cuentas de almacenamiento de blobs de Azure"^] .
